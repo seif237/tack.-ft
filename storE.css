@@ -1,0 +1,41 @@
+nav{
+    display:grid;
+    grid-template-columns: 20% 70%;
+    box-shadow:2px 2px 2px 2px slategrey;
+    align-items: center;
+    text-align: center;
+    color: #290876;
+    
+}
+.op{ display: flex;
+    justify-content: space-around;
+    font-size: large;
+}
+.logo{
+    
+    color:#c72092;
+    font-size: 30px;
+
+}
+.content{
+    background-image: url(./bg1.png);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+}
+.text1{
+    padding: 2%;
+    margin: 2%;
+    font-size: x-large;    
+
+
+}
+.cont{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    align-items: center;
+}
